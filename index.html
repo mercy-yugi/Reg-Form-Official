@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg-form</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Creating a main-container that will hold all the data in the form -->
+    <div class="main-container">
+        <!-- Firstbox holds the image and the first part of the form -->
+        <div class="Firstbox">
+            <h4><i>dribble</i></h4>
+            <h3>Discover the World's <br> top Designers & <br>creatives</h3>
+            <!-- image on the firstbox -->
+            <img src="/images/dribble-removebg-preview.png" width="400" height="400" >
+            <h5 id="bottom-line">Art By <u>Peter Turka</u></h5>  
+        </div>
+        <!-- Secondbox holds all the data in the login form -->
+        <div class="Secondbox">
+           <h6 id="signup">Already a Member?<a href="sign-in.html">Sign in</a></h6> 
+           <h3 id="top-message">Sign up to dribbble</h3>
+           <button type="button" class="button">Sign up with google</button>
+           <!-- this div class holds twitter and facebook -->
+           
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+           
+           <h5 id="or"><span>Or</span> </h5>
+           <!-- this div class holds fullname and username only -->
+           <div class="name-holder">
+
+            <div class="fname">Fullname
+                <input type="text" id="fname" name="fname"><br>
+            </div>
+            
+            <div class="uname">Username
+                <input type="text" id="uname" name="fname"><br>
+            </div><br>
+        </div>
+        <!-- opens a form -->
+    <form action="/action_page.php">
+        
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="">
+    
+        <label for="pwd">Password</label>
+        <input type="text" id="pwd" name="pwd" placeholder="6+ characters..">
+<br>
+<!-- div class for the checkbox -->
+<div class="btn">
+    <input type="checkbox" id="agree" name="agree" value="agree">
+   Creating an account means you are okay with <a href="">Terms of</a><br><a href="">Service,Policy Privacy,</a>and our default <a href="">Notification Setting</a>
+  </div>
+  <!-- div class for create account button -->
+<div class="bttn">
+    <button type="bttn" class="bttn">Create account</button>
+</div>
+<!-- div class for -->
+ <div class="recaptcha">
+     <p>This site is protected by reCAPTCHA and Google<br>
+    <a href="#">Privacy Policy</a>and<a href="#">Terms of Service</a>apply</p>
+ </div>
+</div>
+        </div>
+</body>
+</html>

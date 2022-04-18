@@ -1,0 +1,171 @@
+body{
+    background: linear-gradient(to right, #ffcc66, #ffccff);
+    background-size: cover;
+    position: relative;
+
+}
+.main-container{
+         height: auto;
+        width: auto;
+        background-size: cover;
+        padding: 100px 150px 100px 150px;
+        margin: auto; 
+    }
+    .Firstbox{
+        background-color:#f1be57;
+        margin: 30px 700px 10px 10px;
+        height: 600px;
+        width:400px;
+        border-top-left-radius: 5px; 
+    }
+    .Secondbox{
+        background-color:#fcfcfc;
+        margin: -625px 700px 0px 400px;
+        height: 600px;
+        width: 600px;
+        border-top-right-radius: 5px; 
+    }
+    h3 {
+        margin-left: 20px;
+        color: #4d3f23;
+    }
+    h4 {
+        margin-left: 20px;
+        color: #4d3f23;
+        padding-top: 10px;
+        font-family: 'Updock', cursive;
+    }
+    #bottom-line{
+        color: #4d3f23;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    #signup{
+        padding-left: 440px;
+        padding-top: 30px;
+        
+    }
+    #top-message{
+        padding-top: 68px;
+        padding-left:120px;
+    }
+    .button {
+        position: absolute;
+        background-color:#5959e2;
+        color: #fff;
+        border:none;
+        margin: 2px 70px 10px 140px;
+        padding: 10px;
+        width: 18%;
+      }
+      .fa-facebook{
+        display: inline-block;
+        background-color: rgba(144, 135, 135, 0.144);
+        border-radius: 3px;
+        padding: 17px;
+        text-decoration: none;
+        color: rgb(151, 146, 146);
+        margin-left: 5%;
+    }
+    .fa-twitter{
+        display: inline-block;
+        background-color: rgba(144, 135, 135, 0.144);
+        border-radius: 3px;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(151, 146, 146);
+        margin-left: 63%;
+    
+    }
+     
+      /* .social-media{
+        display: flex;
+        margin-left: 400px;
+        display: inline-block;
+        background-color: #92918f;
+        text-decoration: none;
+        color: white;
+        display: flex;  
+        border-radius: 10px;
+        padding: 12px ;
+        
+      } */
+     
+      #or{
+        width: 60%; 
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin-left: 140px; 
+     } 
+     
+     #or span { 
+         background:#fff; 
+         padding:0 10px; 
+     }
+     .name-holder {
+        display: flex;
+        grid-gap: 10px;
+        margin-left: 140px;
+        width: 30px;
+        
+    }
+    .uname{
+        margin-left: 20px;
+    }
+    #fname{
+        margin-left: -3px;
+        width: 140px;
+        margin-top: 16px;
+        padding-left: 90px;
+    }
+    #uname{
+       margin:9%;
+       padding-left: 90px;
+     width: 180px; 
+     padding-right: 60px;
+     margin-right: -100px;
+     margin-top: 16px;
+      
+    }
+    input[type=text]{
+        width: 60%;
+        height: 12px;
+        padding: 12px 10px;
+        margin: 8px 0;
+        margin-left: 140px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-sizing: border-box;
+        color: #92918f;
+      }
+      label{
+          margin-left: 140px;
+      }
+      .btn {
+        position: absolute;
+        border:none;
+        margin-left: 140px;
+        padding: 5px;
+        width: 50%;
+        font-size: small;
+        
+      }
+      .bttn{
+         margin-top:30px ;
+         margin-left: 71px;
+         height: 40px;
+         width: 60%;
+         border-style: none;
+         border-radius: 5px;
+         
+         
+      }
+      .recaptcha{
+          font-size:x-small;
+          margin-top: 40px;
+          margin-left: 145px;
+      }
+
+     
